@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="2dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Введите информациию:"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/etRecipient"
+        android:hint="Адрес почты"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/mobileNumber"
+        android:hint="Номер телефона"
+        android:phoneNumber="true"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/NameUser"
+        android:hint="ФИО"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_style2"
+        android:gravity="start"
+        android:hint="Сообщение"
+        android:imeOptions="actionDone"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="ОТПРАВИТЬ"
+        android:textColor="#fff" />
+
+</LinearLayout>
