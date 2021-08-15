@@ -1,4 +1,4 @@
 ## Email and SMS Sender
 Мобильное приложение, которое позволяет одновременно отправить смс и письмо на электронную почту. Не окрывает такие сторонние приложения, такие как yandex mail, gmail и т.д.
 ### Скриншот приложения
-![alt text](/app/screenshots/email_sms_sender.jpg "Скриншот приложения")
+![alt text](/app/screenshots/email_sms_sender_new.jpg "Скриншот приложения")
